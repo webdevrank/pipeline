@@ -11,7 +11,7 @@ public class PipelineApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Hello";
+		return "Hello. new version";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(PipelineApplication.class, args);
