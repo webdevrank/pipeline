@@ -7,5 +7,5 @@ phases:
 
 artifacts:
   files:
-    - target/pipeline-0.0.1-SNAPSHOT.jar
-  #discard-paths: yes
+    - target/*.jar
+  discard-paths: yes
